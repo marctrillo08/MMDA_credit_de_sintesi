@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>MMDA</title>
+			<link rel="stylesheet" type="text/css" href="CSS/index.css">
+			<link rel="icon" type="image/png" href="img/MMDA Logo1.2.png">
+		</head>
+		<body>
+			<header>
+				<img src="img/LogoBase.png">
+				<div class="navbar" id="myNavbar">
+
+					<a href="index.html" class="active">Inici</a>
+					<a href="https://mmdasintesi.wixsite.com/mmda">Botiga</a>
+					<a href="Qui_som.html" id="qui">Quí sóm?</a>
+					<a href="intranet.html" id="sesio"><input type="button" name="" value="Inicia Sesió"></a>
+					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
+
+
+				<script>
+				function myFunction() {
+					var x = document.getElementById("myNavbar");
+					if (x.className === "navbar") {
+						x.className += " responsive";
+					}
+					else {
+						x.className = "navbar";
+					}
+				}
+</script>
+			</header>
+			<div class="fotos">
+				<img src="img/traje1.jpg" alt="" class="imag">
+				<img src="img/traje2.jpg" alt="" class="imag">
+				<img src="img/traje3.jpg" alt="" class="imag">
+			</div>
+
+			<footer>
+				<a href="Politiques_de_privacitat.html" target="_blank">Politica de Privacitat</a>
+			</footer>
+		</body>
+	</html>
